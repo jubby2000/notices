@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import TextTransformer from '../containers/TextTransformer'
+import React, { Component } from 'react';
+import TextTransformer from '../containers/TextTransformer';
 
 export default class UpperCase extends Component {
     render() {
@@ -8,6 +8,6 @@ export default class UpperCase extends Component {
                 <h2>Let's UPPERCASE some stuff</h2>
                 <TextTransformer mode="upper" />
             </div>
-        )
+        );
     }
 }

@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import TextTransformer from '../containers/TextTransformer'
+import React, { Component } from 'react';
+import TextTransformer from '../containers/TextTransformer';
 
 export default class LowerCase extends Component {
     render() {
@@ -8,6 +8,6 @@ export default class LowerCase extends Component {
                 <h2>Let's lowercase some stuff</h2>
                 <TextTransformer mode="lower" />
             </div>
-        )
+        );
     }
 }

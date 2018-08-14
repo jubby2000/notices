@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Home extends Component {
     render() {
@@ -9,6 +9,6 @@ export default class Home extends Component {
                 <p><Link to="/lowercase">I want to make my strings lowercase</Link></p>
                 <p><Link to="/uppercase">I want to make my strings UPPERCASE</Link></p>
             </div>
-        )
+        );
     }
 }
